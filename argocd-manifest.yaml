@@ -9,9 +9,6 @@ spec:
     repoURL: https://github.com/bthode/kafkagram-argocd.git
     targetRevision: HEAD
     path: manifests
-    helm:
-      valueFiles:
-        - values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: kafkagram
